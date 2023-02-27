@@ -234,7 +234,7 @@ function App() {
                   alignItems: 'center',
                 }}
               >
-                <ol className="feature-list">
+                <ul className="feature-list">
                   <li>
                     {' '}
                     Account-takeover (ATO) prevention for personal
@@ -248,7 +248,7 @@ function App() {
                   <li>
                     Privacy and protection from unauthorized access
                   </li>
-                </ol>
+                </ul>
               </div>
               <div
                 className="col-sm-12 col-md-6"
@@ -281,7 +281,7 @@ function App() {
                 }}
               >
                 <div>
-                  <ol className="feature-list">
+                  <ul className="feature-list">
                     <li>
                       {' '}
                       Anti fraud/ credit monitoring from all 3 Credit
@@ -294,7 +294,7 @@ function App() {
                     <li>
                       $1M identity theft insurance & 24/7 support
                     </li>
-                  </ol>
+                  </ul>
                   <div
                     style={{
                       display: 'flex',
@@ -318,7 +318,7 @@ function App() {
                   alignItems: 'center',
                 }}
               >
-                <ol className="feature-list">
+                <ul className="feature-list">
                   <li>
                     {' '}
                     Anti-malware defense & mobile threat detection
@@ -328,7 +328,7 @@ function App() {
                     Privacy-led security setting and configurations
                   </li>
                   <li>Location masking and safe-browsing (VPN)</li>
-                </ol>
+                </ul>
               </div>
               <div
                 className="col-sm-12 col-md-6"
@@ -370,7 +370,7 @@ function App() {
                   marginTop: '50px',
                 }}
               >
-                <ol className="feature-list">
+                <ul className="feature-list">
                   <li>
                     {' '}
                     Account-takeover (ATO) prevention for personal
@@ -384,7 +384,7 @@ function App() {
                   <li>
                     Privacy and protection from unauthorized access
                   </li>
-                </ol>
+                </ul>
               </div>
             </div>
             <div className="row" style={{ marginBottom: '50px' }}>
@@ -408,7 +408,7 @@ function App() {
                 }}
               >
                 <div>
-                  <ol className="feature-list">
+                  <ul className="feature-list">
                     <li>
                       {' '}
                       Anti fraud/ credit monitoring from all 3 Credit
@@ -421,7 +421,7 @@ function App() {
                     <li>
                       $1M identity theft insurance & 24/7 support
                     </li>
-                  </ol>
+                  </ul>
                   <div
                     style={{
                       display: 'flex',
@@ -456,7 +456,7 @@ function App() {
                   marginTop: '50px',
                 }}
               >
-                <ol className="feature-list">
+                <ul className="feature-list">
                   <li>
                     {' '}
                     Anti-malware defense & mobile threat detection
@@ -466,7 +466,7 @@ function App() {
                     Privacy-led security setting and configurations
                   </li>
                   <li>Location masking and safe-browsing (VPN)</li>
-                </ol>
+                </ul>
               </div>
             </div>
           </div>
