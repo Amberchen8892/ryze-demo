@@ -29,51 +29,87 @@ function App() {
   }, []);
   return (
     <div style={{ marginBottom: '100px' }}>
-      <Navbar className="fixed-top" bg="light" expand="lg">
-        <div className={navClassName}>
-          <div className="container-fluid">
-            <img src={Ryze} width="15%" height="10%" alt="logo" />
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
-            <div
-              className="collapse navbar-collapse justify-content-end"
-              id="navbarNavDropdown"
-            >
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="https://cyrus.app/partnerships/ryze-signup/"
-                  >
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="https://cyrus.app/partnerships/ryze-signup/"
-                  >
-                    Resources
-                  </a>
-                </li>
-                <li className="nav-item">
+      <div className="nav-desktop">
+        <Navbar className="fixed-top" bg="dark" expand="lg">
+          <div className={navClassName}>
+            <div className="container-fluid">
+              <img src={Ryze} width="15%" height="10%" alt="logo" />
+
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon" />
+              </button>
+              <div
+                className="collapse navbar-collapse justify-content-end"
+                id="navbarNavDropdown"
+              >
+                <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a className="nav-link" href="#features">
+                      Features
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#resources">
+                      Resources
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#contact">
+                      Contact
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      role="button"
+                      className="signup-button"
+                      href="https://cyrus.app/partnerships/ryze-signup/"
+                    >
+                      SIGN UP
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* </nav> */}
+          </div>
+        </Navbar>
+      </div>
+      <div className="nav-mobile">
+        <Navbar
+          className="fixed-top"
+          bg="dark"
+          variant="dark"
+          expand="lg"
+        >
+          <div className={navClassName}>
+            <div className="container-fluid">
+              <img src={Ryze} width="20%" height="25%" alt="logo" />
+
+              <div
+                className="justify-content-end"
+                style={{ display: 'flex' }}
+              >
+                {/* <div
+                  className="center"
+                  style={{ marginRight: '10px' }}
+                >
                   <a
                     className="nav-link"
                     href="https://cyrus.app/partnerships/ryze-signup/"
                   >
                     Contact
                   </a>
-                </li>
-                <li className="nav-item">
+                </div> */}
+                <div className="mobile-sign-up">
                   <a
                     role="button"
                     className="signup-button"
@@ -81,14 +117,31 @@ function App() {
                   >
                     SIGN UP
                   </a>
-                </li>
-              </ul>
+                </div>
+                {/* <ul className="navbar-nav">
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="https://cyrus.app/partnerships/ryze-signup/"
+                    >
+                      Contact
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      role="button"
+                      className="signup-button"
+                      href="https://cyrus.app/partnerships/ryze-signup/"
+                    >
+                      SIGN UP
+                    </a>
+                  </li>
+                </ul> */}
+              </div>
             </div>
           </div>
-
-          {/* </nav> */}
-        </div>
-      </Navbar>
+        </Navbar>
+      </div>
 
       <div className="main">
         <div className="container">
@@ -235,7 +288,10 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="feature-section desktop-feature">
+          <div
+            className="feature-section desktop-feature"
+            id="features"
+          >
             <div className="row">
               <div className="col-sm-12 col-md-6 feature-section-text">
                 Millitary Grade Digital Protection{' '}
@@ -559,7 +615,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="methodology">
+          <div className="methodology" id="resources">
             <div className="methodology-container">
               <h1>
                 Our <span>"Cyber Kill-Chain"</span> Methodology
@@ -704,7 +760,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="contact-section">
+        <div className="contact-section" id="contact">
           <div className=" container">
             <div className="row" style={{ width: '100%' }}>
               <div className="col-sm-12 col-md-6 form-container">
