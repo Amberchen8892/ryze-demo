@@ -1,5 +1,6 @@
+import React, { Suspense, useEffect, useState } from 'react';
 import './App.css';
-import Spline from '@splinetool/react-spline';
+// import Spline from '@splinetool/react-spline';
 
 import ryzeFooter from './images/rsz_new-logo-ryze.png';
 import Ryze from './images/new-logo-ryze.png';
@@ -8,13 +9,28 @@ import ryzeMethodology from './images/metho.png';
 import formImage from './images/Download-app-visual-desktop.png';
 import cyrusLogo from './images/cyrus-logo.png';
 import Navbar from 'react-bootstrap/Navbar';
-
+const Spline = React.lazy(() => import('@splinetool/react-spline'));
 function App() {
+  const [navClassName, setNavClassName] = useState(
+    'container navbar'
+  );
+  const listenScrollEvent = (event) => {
+    if (window.scrollY < 60) {
+      return setNavClassName('container navbar');
+    } else if (window.scrollY > 61) {
+      return setNavClassName('container navbar navbars-roll');
+    }
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent);
+
+    return () =>
+      window.removeEventListener('scroll', listenScrollEvent);
+  }, []);
   return (
     <div style={{ marginBottom: '100px' }}>
       <Navbar className="fixed-top" bg="light" expand="lg">
-        <div className="container navbar ">
-          {/* <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary"> */}
+        <div className={navClassName}>
           <div className="container-fluid">
             <img src={Ryze} width="15%" height="10%" alt="logo" />
             <button
@@ -107,10 +123,12 @@ function App() {
                 </div>
               </div>
               <div className="col-md-12 col-lg-6 spline-container">
-                <Spline
-                  className="spline-3"
-                  scene="https://prod.spline.design/WOE5QmIwjnWLpHLC/scene.splinecode"
-                />
+                <Suspense fallback={<div>Loading...</div>}>
+                  <Spline
+                    className="spline-3"
+                    scene="https://prod.spline.design/WOE5QmIwjnWLpHLC/scene.splinecode"
+                  />
+                </Suspense>
               </div>
             </div>
 
@@ -608,7 +626,7 @@ function App() {
                   <div className="lotties-card"></div>
                 </div>
               </div>
-              <div className="col-md-12 col-lg-7 socail-text">
+              <div className="col-md-12 col-lg-7 social-text">
                 <div>
                   <h1 className="social-section-h1">
                     <span>STOP</span> Identities Theft & Cybercrime
