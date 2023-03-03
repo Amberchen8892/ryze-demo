@@ -74,7 +74,7 @@ function Partner() {
         >
           <div className="row">
             <div className="col-sm-12 col-md-8 feature-section-text">
-              Secure Your Identity in the Digital Age with{' '}
+              Secure Your Business and Employees in the Digital Age with{' '}
               <span> Our Protection Services</span>
             </div>
             <div className="col-sm-12 col-md-4"></div>
