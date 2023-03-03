@@ -57,7 +57,7 @@ function Navigation() {
                   <Nav.Link href="resources">Resources</Nav.Link>
                   </li>
                   <li className="nav-item">
-                    <Nav.Link href="partner">Partner</Nav.Link>
+                    <Nav.Link href="partner">Partners</Nav.Link>
                     
                   </li>
                   <li className="nav-item">
