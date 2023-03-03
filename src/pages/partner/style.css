@@ -1,0 +1,145 @@
+.partner-hero-section {
+  background-size: 100%;
+  background-image: url('../../images/partner.svg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.wraper-overlay{
+    position: absolute;
+  
+  
+  z-index: 2;
+  left: 0;
+  right: 0;
+  height:50%;
+  bottom: 0;
+}
+.wrapper {
+    
+  padding: 100px;
+  background: rgba(255, 255, 255, 0.198);
+  backdrop-filter: blur(10px);
+  
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  
+}
+.partner-hero-section-text h1{
+    font-weight: bold;
+    font-size:2rem;
+}
+.partner-hero-section-text p{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.videoTag {
+  z-index: -1;
+  width: 100%;
+}
+.demo {
+  position: relative;
+ 
+}
+.demo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 50px;
+}
+#video_overlays {
+  position: absolute;
+  background-color: #16213ea5;
+  
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.wrapper-demo {
+  background: rgba(255, 255, 255, 0.201);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-height:100%;
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
+  padding: 100px;
+}
+.demo-list{
+    list-style: none;
+    
+}
+.demo-list li{
+    line-height: 2rem;
+    
+}
+.circle-icon{
+    background: var(--wype-green);
+    padding:5px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.demo-button{
+    width:200px;
+    height:50px;
+    color: white;
+    background-color: var(--wype-green);
+    font-weight: bold;
+}
+.demo-button:hover{
+    border: 1px solid var(--wype-green);
+    background-color: transparent;
+}
+.demo-text{
+    font-weight: bold;
+    font-size: 2.5rem;;
+}
+.demo-text span{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--wype-green)
+}
+.demo-partner{
+    margin-bottom: 150px;
+}
+.demo-card-title{
+    font-size: 1.2rem !important;
+    margin-top: 20px !important;
+    font-weight: bold;
+}
+.demo-card-text{
+    font-size: 0.8rem !important;
+    margin-top: 20px !important;
+    
+}
+.demo-statitcs-one-section{
+    margin-top:100px;
+}
+/* responsive */
+/* @media (max-width: 991.98px) {
+    
+  }
+  
+  
+  @media (max-width: 767.98px) {
+    
+  }
+  @media (max-width: 575.98px) { 
+   
+  
+  }
+  @media (max-width: 515px) { 
+  
+    
+  }
+  @media (max-width: 420px) { 
+
+  } */
+@media (max-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
+}

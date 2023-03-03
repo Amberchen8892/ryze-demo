@@ -1,0 +1,53 @@
+.resources-hero-section{
+    margin-top:200px;
+}
+.resources-hero-img{
+    width:100%;
+    height:100%;
+    background-size: 100%;
+  background-image: url('../../images/resources.svg');
+  transform: scale(2.2) translateX(100px);
+}
+.resources-hero-section-h1, .resources-hero-section-span{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.resources-hero-section-span{
+    color: var(--wype-green);
+}
+.resources-hero-section-p{
+font-size:1.2rem;
+font-weight: 500;
+margin-top:30px;
+}
+.resources-card-title{
+    font-size: 1.5rem !important;
+    margin-top: 100px !important;
+}
+.resources-main{
+    margin-top:150px
+}
+.resources-main-img-one{
+    width:100%;
+    height:100%;
+    background-size: 100%;
+  background-image: url('../../images/relax.svg');
+  transform: scale(2.2) 
+}
+.resources-main-img-two{
+    width:100%;
+    height:100%;
+    background-size: 100%;
+  background-image: url('../../images/support.svg');
+  transform: scale(3.2) translateX(-20px) translateY(30px)
+}
+.resources-main-img-three{
+    width:100%;
+    height:100%;
+    background-size: 100%;
+  background-image: url('../../images/question.svg');
+  transform: scale(3) translateY(65px)
+}
+.resources-main-row{
+    margin-top: 100px
+}
