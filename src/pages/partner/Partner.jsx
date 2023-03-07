@@ -1,14 +1,15 @@
 import React from 'react';
 import './style.css';
 import backgroundVid from '../../images/demo.mp4';
+import partnerMobile from '../../images/partner-mobile.svg';
 function Partner() {
   return (
     <>
       <div className="partner-hero-section">
-        <div className="wraper-overlay center">
+        <div className="wraper-overlay center ">
           <div className="container ">
             <div className="wrapper center">
-              <div classname="partner-hero-section-text">
+              <div className="partner-hero-section-text">
                 <h1>
                   Protect Your Business <br />
                   By Protecting Your Employees
@@ -24,43 +25,104 @@ function Partner() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    marginBottom: '20px',
                   }}
                 >
-                  <button type="button" class="btn demo-button">
+                  <a
+                    className="btn btn-success demo-button"
+                    href="https://calendly.com/myryze/demo"
+                    rel="noreferrer"
+                    target="_blank"
+                    role="button"
+                  >
                     Book a Demo
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div className="partner-hero-section-mobile-view">
+        <div className="container">
+          <div class="row">
+            <div class="col-12 partner-mobile-img">
+              <img
+                src={partnerMobile}
+                alt="partner view on mobile device"
+              />
+            </div>
+            <div class="col-12">
+              <div className="partner-hero-section-text">
+                <h1>
+                  Protect <span>Your Business</span> <br />
+                  By Protecting Your Employees
+                </h1>
+                <p>
+                  It’s no secret that cyber attacks are on the rise,
+                  and companies of all sizes are at risk. Ryze
+                  protects your employees’ personal accounts to
+                  prevent enterprise level breaches and hacks.
+                </p>
+                <div
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                  }}
+                >
+                  <a
+                    className="btn btn-success demo-button"
+                    href="https://calendly.com/myryze/demo"
+                    rel="noreferrer"
+                    target="_blank"
+                    role="button"
+                  >
+                    Book a Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="container">
         <div className="statitcs-one-section demo-statitcs-one-section">
           <h1 style={{ marginTop: '20px' }}>
-            Our Mission Is Protecting You From Cybercrime And Fraud
+            Our mission is protecting people, employers and employees
+            from Cybercrime & Fraud
           </h1>
           <div className="row">
-            <div className="col-sm-12 col-md-6 card-dark">
+            <div className="col-md-12 col-lg-4 card-dark">
               {' '}
               <div className="card" style={{ padding: '10px' }}>
-                <div>
+                <div className="demo-statitcs-one-section-text">
                   <h3 className="statitic-text">95%</h3>
                   <p className="statitic-p">
-                    of business-related breaches involve a human
-                    element.
+                    of corporate breaches involve a human element -
+                    including social engineering, phising, and
+                    targeted attacks.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 card-dark">
-              {' '}
+            <div className="col-md-12 col-lg-4 card-dark">
               <div className="card" style={{ padding: '10px' }}>
-                <div>
+                <div className="demo-statitcs-one-section-text">
+                  <h3 className="statitic-text">82%</h3>
+                  <p className="statitic-p">
+                    customers will stay with the institution if they
+                    receive proactive and realtime support.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-12 col-lg-4 card-dark">
+              <div className="card" style={{ padding: '10px' }}>
+                <div className="demo-statitcs-one-section-text">
                   <h3 className="statitic-text">$6B</h3>
                   <p className="statitic-p">
-                    Identity fraud is estimated to cost US businesses
+                    identity fraud is estimated to cost US businesses
                     $6 billion annually.
                   </p>
                 </div>
@@ -74,8 +136,8 @@ function Partner() {
         >
           <div className="row">
             <div className="col-sm-12 col-md-8 feature-section-text">
-              Secure Your Business and Employees in the Digital Age with{' '}
-              <span> Our Protection Services</span>
+              Secure Your Business and Employees in the Digital Age
+              with <span> Our Protection Services</span>
             </div>
             <div className="col-sm-12 col-md-4"></div>
           </div>
@@ -90,12 +152,10 @@ function Partner() {
             >
               <ul className="feature-list">
                 <li>
-                  {' '}
                   Account-takeover (ATO) prevention for personal email
                   and social
                 </li>
                 <li>
-                  {' '}
                   Deep & dark web threat detection for digital assets{' '}
                 </li>
                 <li>
@@ -136,8 +196,7 @@ function Partner() {
               <div>
                 <ul className="feature-list">
                   <li>
-                    {' '}
-                    Anti fraud/ credit monitoring from all 3 Credit
+                    Anti fraud/credit monitoring from all 3 Credit
                     Bureaus
                   </li>
                   <li>
@@ -152,9 +211,15 @@ function Partner() {
                     alignItems: 'center',
                   }}
                 >
-                  <button type="button" class="btn demo-button">
+                  <a
+                    className="btn btn-success demo-button"
+                    href="https://calendly.com/myryze/demo"
+                    rel="noreferrer"
+                    target="_blank"
+                    role="button"
+                  >
                     Book a Demo
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -170,11 +235,9 @@ function Partner() {
             >
               <ul className="feature-list">
                 <li>
-                  {' '}
                   Anti-malware defense & mobile threat detection
                 </li>
                 <li>
-                  {' '}
                   Privacy-led security setting and configurations
                 </li>
                 <li>Location masking and safe-browsing (VPN)</li>
@@ -222,12 +285,10 @@ function Partner() {
             >
               <ul className="feature-list">
                 <li>
-                  {' '}
                   Account-takeover (ATO) prevention for personal email
-                  and social
+                  and social media
                 </li>
                 <li>
-                  {' '}
                   Deep & dark web threat detection for digital assets{' '}
                 </li>
                 <li>
@@ -259,8 +320,7 @@ function Partner() {
               <div>
                 <ul className="feature-list">
                   <li>
-                    {' '}
-                    Anti fraud/ credit monitoring from all 3 Credit
+                    Anti fraud/credit monitoring from all 3 Credit
                     Bureaus
                   </li>
                   <li>
@@ -275,9 +335,15 @@ function Partner() {
                     alignItems: 'center',
                   }}
                 >
-                  <button type="button" class="btn demo-button">
+                  <a
+                    className="btn btn-success demo-button"
+                    href="https://calendly.com/myryze/demo"
+                    rel="noreferrer"
+                    target="_blank"
+                    role="button"
+                  >
                     Book a Demo
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -321,11 +387,11 @@ function Partner() {
             <h1 style={{ marginBottom: '50px' }}>
               Partnering With RYZE
             </h1>
-            <div className="statitcs-two-container">
+            <div className="statitcs-two-container ">
               <div className="row">
-                <div className="col-md-12 col-lg-4 center">
-                  <div className="card" style={{ width: '18rem' }}>
-                    <div className="card-body">
+                <div className="col-xl-12 col-xxl-3 center">
+                  <div className="card partnership-card ">
+                    <div className="card-body ">
                       <div className="icon-container">
                         <span>
                           <i className="fas fa-eye"></i>
@@ -343,18 +409,16 @@ function Partner() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-12 col-lg-4 center">
-                  <div className="card" style={{ width: '18rem' }}>
+                <div className="col-xl-12 col-xxl-3 center">
+                  <div className="card partnership-card">
                     <div className="card-body">
                       <div className="icon-container">
-                        <div className="icon-container">
-                          <span>
-                            <i className="fas fa-handshake"></i>
-                          </span>
-                        </div>
+                        <span>
+                          <i className="fas fa-handshake"></i>
+                        </span>
                       </div>
                       <h5 className="card-title demo-card-title">
-                        Foster trust within your team
+                        Covering security blindspot
                       </h5>
 
                       <p className="card-text demo-card-text">
@@ -365,8 +429,8 @@ function Partner() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-12 col-lg-4 center">
-                  <div className="card" style={{ width: '18rem' }}>
+                <div className="col-xl-12 col-xxl-3 center">
+                  <div className="card partnership-card">
                     <div className="card-body">
                       <div className="icon-container">
                         <span>
@@ -374,13 +438,32 @@ function Partner() {
                         </span>
                       </div>
                       <h5 className="card-title demo-card-title">
-                        Fast and easy installation
+                        Fast and easy onboarding
                       </h5>
 
                       <p className="card-text demo-card-text">
                         Getting started is as simple as downloading an
                         app, and your protection is assured within
                         minutes
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xl-12 col-xxl-3 center">
+                  <div className="card partnership-card">
+                    <div className="card-body">
+                      <div className="icon-container">
+                        <span>
+                          <i className="fas fa-money-bill"></i>
+                        </span>
+                      </div>
+                      <h5 className="card-title demo-card-title">
+                        Drive Revenue
+                      </h5>
+
+                      <p className="card-text demo-card-text">
+                        Take advantage of our partner program.
+                        Schedule your demo today!
                       </p>
                     </div>
                   </div>
@@ -398,7 +481,7 @@ function Partner() {
                 <h1 className="demo-text">
                   Schedule <span>a free demo</span> today
                 </h1>
-                <p>
+                <p className="demo-p">
                   Ryze protects your staff's personal accounts to
                   prevent hacks and breaches at the enterprise level.
                   Reserve a complimentary demonstration to discuss
@@ -435,9 +518,15 @@ function Partner() {
                     marginBottom: '20px',
                   }}
                 >
-                  <button type="button" class="btn demo-button">
+                  <a
+                    className="btn btn-success demo-button"
+                    href="https://calendly.com/myryze/demo"
+                    rel="noreferrer"
+                    target="_blank"
+                    role="button"
+                  >
                     Book a Demo
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

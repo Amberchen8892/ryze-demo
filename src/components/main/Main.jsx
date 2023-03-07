@@ -1,4 +1,4 @@
-import React, { Suspense} from 'react';
+import React, { Suspense } from 'react';
 import '../../App.css';
 import formImage from '../../images/Download-app-visual-desktop.png';
 
@@ -7,16 +7,16 @@ const Spline = React.lazy(() => import('@splinetool/react-spline'));
 function Main() {
   return (
     <>
-     <div className="main">
+      <div className="main">
         <div className="container">
           <div className="hero-section">
             <div className="row desktop-view">
               <div className="col-md-12 col-lg-6 hero-text">
                 <div>
                   <h1 className="hero-text-h1">
-                  Millitary Grade Digital Protection{' '}
+                    Millitary Grade Digital Protection{' '}
                     <span className="hero-text-span">
-                    In One Place
+                      In One Place
                     </span>
                   </h1>
                   <p className="hero-text-p">
@@ -58,10 +58,10 @@ function Main() {
               </div>
               <div className="col-md-12 col-lg-6 hero-text">
                 <div>
-                <h1 className="hero-text-h1">
-                  Millitary Grade Digital Protection{' '}
+                  <h1 className="hero-text-h1">
+                    Millitary Grade Digital Protection{' '}
                     <span className="hero-text-span">
-                    In One Place
+                      In One Place
                     </span>
                   </h1>
                   <p className="hero-text-p">
@@ -143,7 +143,7 @@ function Main() {
                         $5.8 <br /> billion
                       </h3>
                       <p className="statitic-p">
-                        Lost by consumers to fraud in 2020, an
+                        Lost by consumers to fraud in 2021, an
                         increase of 70% from 2020
                       </p>
                     </div>
@@ -158,8 +158,8 @@ function Main() {
           >
             <div className="row">
               <div className="col-sm-12 col-md-8 feature-section-text">
-              Secure Your Identity in the Digital Age with{' '}
-                <span>  Our Protection Services</span>
+                Secure Your Identity in the Digital Age with{' '}
+                <span> Our Protection Services</span>
               </div>
               <div className="col-sm-12 col-md-4"></div>
             </div>
@@ -174,12 +174,10 @@ function Main() {
               >
                 <ul className="feature-list">
                   <li>
-                    {' '}
                     Account-takeover (ATO) prevention for personal
-                    email and social
+                    email and social media
                   </li>
                   <li>
-                    {' '}
                     Deep & dark web threat detection for digital
                     assets{' '}
                   </li>
@@ -221,8 +219,7 @@ function Main() {
                 <div>
                   <ul className="feature-list">
                     <li>
-                      {' '}
-                      Anti fraud/ credit monitoring from all 3 Credit
+                      Anti fraud/credit monitoring from all 3 Credit
                       Bureaus
                     </li>
                     <li>
@@ -453,7 +450,7 @@ function Main() {
                         </h5>
 
                         <p className="card-text">
-                          Accounts recovered by RYZE this year
+                          Social media accounts recovered this year
                         </p>
                       </div>
                     </div>
@@ -479,8 +476,8 @@ function Main() {
               </div>
             </div>
           </div>
-          
-          <div className="social-section social-desktop-view">
+
+          {/* <div className="social-section social-desktop-view">
             <div className="row">
               <div className="col-md-12 col-lg-7 hero-text">
                 <div>
@@ -547,13 +544,11 @@ function Main() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="package-section">
             <div className="row">
               <div className="col-md-12 col-lg-7 center">
-                <div className="package-img-container">
-                  {/* <img src={threeScreens} alt="three-screen" /> */}
-                </div>
+                <div className="package-img-container"></div>
               </div>
               <div className="col-md-12 col-lg-5">
                 <div className="center">
@@ -561,10 +556,10 @@ function Main() {
                     <h1>Your Security Package</h1>
 
                     <p>
-                      Sign-Up – Sign up with your email. After
-                      confirming registration in your inbox, you’ll
-                      have full access to our modern identity theft
-                      protection app, at no charge during the test
+                      Sign up with your email. After confirming
+                      registration in your inbox, you’ll have full
+                      access to our modern identity theft protection
+                      app, at no charge during the initial 7-day trial
                       period.
                     </p>
                     <div
@@ -587,8 +582,8 @@ function Main() {
                         <li>$1M fraud insurance protection</li>
                         <li>Email account security </li>
                         <li>Triple-bureau credit monitoring</li>
-                        <li> Device protection </li>
-                        <li> Password safety</li>
+                        <li>Device protection </li>
+                        <li>Password safety</li>
                         <li>Dark web scanning </li>
                         <li>24/7 security experts standing by</li>
                       </ul>
@@ -606,7 +601,12 @@ function Main() {
                 <div style={{ width: '100%' }}>
                   <h1>CONTACT US</h1>
                   <div>
-                    <form>
+                    <form
+                      action="mailto:support@myryze.com"
+                      method="POST"
+                      enctype="multipart/form-data"
+                      name="EmailForm"
+                    >
                       <div className="mb-3">
                         <label
                           htmlFor="exampleInputEmail1"
@@ -667,7 +667,7 @@ function Main() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Main
+export default Main;

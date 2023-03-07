@@ -1,0 +1,11 @@
+.mobile-nav-bar{
+    padding-top:100px;
+    height:100vh;
+    background-color: var(--secondary-dark);
+    width:100vw;
+    display:flex;
+    justify-content: center;
+  }
+  .mobile-nav-bar .navbar-nav li{
+    text-align: center;
+  }

@@ -35,6 +35,7 @@ body {
 .nav-mobile {
   display:none;
 }
+
 .navbar {
   background-color: transparent !important;
   display: flex;
@@ -599,6 +600,9 @@ margin-top: 80px;
   }
 }
 @media (max-width: 575.98px) { 
+  .navbar {
+    height:50px;
+  }
   .hero-text-h1, .hero-text-span {
     font-size: 1.5rem ;
   }
@@ -626,6 +630,9 @@ margin-top: 80px;
 .package-text h1 {
   text-align: center;
 }
+.ryze-logo-container img {
+  scale: 1.2;
+  }
 
 }
 @media (max-width: 515px) { 
@@ -636,7 +643,10 @@ margin-top: 80px;
  
   
 }
-@media (max-width: 420px) { 
+@media (max-width: 430px) { 
+  .navbar {
+    height:50px;
+  }
 .mobile-sign-up .signup-button{
   width:100px;
   height:1.6rem;
