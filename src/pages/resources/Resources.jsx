@@ -41,14 +41,20 @@ function Resources() {
               </div>
             </div>
             <div
-              className="col-md-12 col-lg-6 spline-container"
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}
+              className="col-md-12 col-lg-6"
+              // style={{
+              //   display: 'flex',
+              //   justifyContent: 'center',
+              //   alignItems: 'center',
+              //   backgroundColor:'red'
+              // }}
             >
-              <div className="resources-hero-img"></div>
+              <div className="resources-hero-img">
+              {/* <img
+                  src={resourcesHero}
+                  alt="resources herosection"
+                /> */}
+              </div>
             </div>
           </div>
         </div>
