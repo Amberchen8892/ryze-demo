@@ -81,7 +81,7 @@
     justify-content: center;
   }
   .resources-hero-img-mobile img {
-    transform: scale(1.3);
+    transform: scale(1);
   }
   .resources-hero-section-h1, .resources-hero-section-span{
     font-size:1.8rem
@@ -96,7 +96,7 @@
     letter-spacing:0
   }
   .resources-main-mobile-img-container img{
-    transform:scale(1.3);
+    transform:scale(1);
    
     
   }
