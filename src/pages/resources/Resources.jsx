@@ -2,9 +2,9 @@ import React from 'react';
 import './style.css';
 import ryzeMethodology from '../../images/metho.png';
 import formImage from '../../images/Download-app-visual-desktop.png';
-import resourcesHero from '../../images/resources.svg';
-import relax from '../../images/relax.svg'
-import question from '../../images/question.svg'
+import resourcesHero from '../../images/new-resources.svg';
+import relax from '../../images/new-relax.svg'
+import question from '../../images/new-question.svg'
 import support from '../../images/new-support.svg'
 function Resources() {
   return (
@@ -22,7 +22,7 @@ function Resources() {
                 </h1>
                 <p className="resources-hero-section-p">
                   {' '}
-                  With a subscription to Ryze, you can trust that
+                  With a subscription to RYZE, you can trust that
                   you're protected against cyber threats. Enjoy the
                   peace of mind that comes with our team of
                   cybersecurity experts protecting you with on-demand
@@ -33,7 +33,7 @@ function Resources() {
                   <a
                     role="button"
                     className="signup-button"
-                    href="https://cyrus.app/partnerships/ryze-signup/"
+                    href="https://join.cyrus.app/signup?pcode=MYRYZE"
                   >
                     SIGN UP
                   </a>
@@ -78,7 +78,7 @@ function Resources() {
                 </h1>
                 <p className="resources-hero-section-p">
                   {' '}
-                  With a subscription to Ryze, you can trust that
+                  With a subscription to RYZE, you can trust that
                   you're protected against cyber threats. Enjoy the
                   peace of mind that comes with our team of
                   cybersecurity experts protecting you with on-demand
@@ -89,7 +89,7 @@ function Resources() {
                   <a
                     role="button"
                     className="signup-button"
-                    href="https://cyrus.app/partnerships/ryze-signup/"
+                    href="https://join.cyrus.app/signup?pcode=MYRYZE"
                   >
                     SIGN UP
                   </a>
@@ -100,7 +100,7 @@ function Resources() {
         </div>
         <div className="statitcs-two-section">
           <div>
-            <h1>Ryze Memership Includes</h1>
+            <h1>RYZE Memership Includes</h1>
             <div className="statitcs-two-container">
               <div className="row">
                 <div className="col-md-12 col-lg-4 center">

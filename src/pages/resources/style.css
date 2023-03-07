@@ -81,7 +81,7 @@
     justify-content: center;
   }
   .resources-hero-img-mobile img {
-    transform: scale(1.6) translateX(20px) !important;
+    transform: scale(0.9) !important;
   }
   .resources-hero-section-h1, .resources-hero-section-span{
     font-size:1.8rem
@@ -96,9 +96,14 @@
     letter-spacing:0
   }
   .resources-main-mobile-img-container img{
-    transform:scale(0.7) !important;
-   
+    transform:scale(1) !important;
     
+  }
+  .resources-main-h1{
+    font-size:1.7rem
+  }
+  .resources-main-p{
+    font-size:0.9rem
   }
 }
 @media (max-width: 992px) {

@@ -303,7 +303,7 @@
     margin-top: 80px;
   }
   .partner-mobile-img img {
-    transform: scale(2);
+    transform: scale(1);
   }
   .partner-hero-section-text p {
     font-size: 0.9rem;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import backgroundVid from '../../images/demo.mp4';
-import partnerMobile from '../../images/partner-mobile.svg';
+import partnerMobile from '../../images/mobile-partner.svg';
 function Partner() {
   return (
     <>
@@ -16,7 +16,7 @@ function Partner() {
                 </h1>
                 <p>
                   It’s no secret that cyber attacks are on the rise,
-                  and companies of all sizes are at risk. Ryze
+                  and companies of all sizes are at risk. RYZE
                   protects your employees’ personal accounts to
                   prevent enterprise level breaches and hacks.
                 </p>
@@ -52,14 +52,14 @@ function Partner() {
               />
             </div>
             <div class="col-12">
-              <div className="partner-hero-section-text">
+              <div className="partner-hero-section-text" style={{marginTop: '30px'}}>
                 <h1>
                   Protect <span>Your Business</span> <br />
                   By Protecting Your Employees
                 </h1>
                 <p>
                   It’s no secret that cyber attacks are on the rise,
-                  and companies of all sizes are at risk. Ryze
+                  and companies of all sizes are at risk. RYZE
                   protects your employees’ personal accounts to
                   prevent enterprise level breaches and hacks.
                 </p>
@@ -479,10 +479,10 @@ function Partner() {
             <div className="wrapper-demo ">
               <div classname="partner-hero-section-text">
                 <h1 className="demo-text">
-                  Schedule <span>a free demo</span> today
+                  Schedule <span>a demo</span> today
                 </h1>
                 <p className="demo-p">
-                  Ryze protects your staff's personal accounts to
+                  RYZE protects your staff's personal accounts to
                   prevent hacks and breaches at the enterprise level.
                   Reserve a complimentary demonstration to discuss
                   your organization's security.

@@ -32,7 +32,7 @@ function Main() {
                     <a
                       role="button"
                       className="signup-button"
-                      href="https://cyrus.app/partnerships/ryze-signup/"
+                      href="https://join.cyrus.app/signup?pcode=MYRYZE"
                     >
                       SIGN UP
                     </a>
@@ -76,7 +76,7 @@ function Main() {
                   <a
                     role="button"
                     className="signup-button"
-                    href="https://cyrus.app/partnerships/ryze-signup/"
+                    href="https://join.cyrus.app/signup?pcode=MYRYZE"
                   >
                     SIGN UP
                   </a>
@@ -237,9 +237,13 @@ function Main() {
                       alignItems: 'center',
                     }}
                   >
-                    <button type="button" class="btn signup-button">
+                    <a
+                      role="button"
+                      className="signup-button"
+                      href="https://join.cyrus.app/signup?pcode=MYRYZE"
+                    >
                       SIGN UP
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -255,11 +259,9 @@ function Main() {
               >
                 <ul className="feature-list">
                   <li>
-                    {' '}
                     Anti-malware defense & mobile threat detection
                   </li>
                   <li>
-                    {' '}
                     Privacy-led security setting and configurations
                   </li>
                   <li>Location masking and safe-browsing (VPN)</li>
@@ -570,9 +572,13 @@ function Main() {
                         marginBottom: '20px',
                       }}
                     >
-                      <button type="button" class="btn signup-button">
-                        SIGN UP
-                      </button>
+                      <a
+                      role="button"
+                      className="signup-button"
+                      href="https://join.cyrus.app/signup?pcode=MYRYZE"
+                    >
+                      SIGN UP
+                    </a>
                     </div>
                     <p>
                       {' '}

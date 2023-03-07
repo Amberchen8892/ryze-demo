@@ -25,7 +25,7 @@ const MobileNav = () => {
                     <a
                       role="button"
                       className="signup-button"
-                      href="https://cyrus.app/partnerships/ryze-signup/"
+                      href="https://join.cyrus.app/signup?pcode=MYRYZE"
                     >
                       SIGN UP
                     </a>
@@ -80,9 +80,6 @@ function Navigation() {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                   <Nav.Link href="/#features">Features</Nav.Link>
-                    {/* <a className="nav-link" href="#features">
-                      Features
-                    </a> */}
                   </li>
                   <li className="nav-item">
                   <Nav.Link href="resources">Resources</Nav.Link>
@@ -93,15 +90,12 @@ function Navigation() {
                   </li>
                   <li className="nav-item">
                   <Nav.Link href="/#contact">Contact</Nav.Link>
-                    {/* <a className="nav-link" href="#contact">
-                      Contact
-                    </a> */}
                   </li>
-                  <li className="nav-item">
+                  <li className="nav-item" style={{marginLeft: '10px'}}>
                     <a
                       role="button"
                       className="signup-button"
-                      href="https://cyrus.app/partnerships/ryze-signup/"
+                      href="https://join.cyrus.app/signup?pcode=MYRYZE"
                     >
                       SIGN UP
                     </a>

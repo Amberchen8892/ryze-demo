@@ -67,6 +67,9 @@ body {
   height: 45px;
   width:120px
 }
+.nav-item .signup-button:hover{
+  color:white
+}
 /* main */
 .hero-section {
   width: 100%;
@@ -224,7 +227,9 @@ body {
 }
 .signup-button:hover {
   background-color: var(--secondary-color);
+  
 }
+
 
 /* statitcs-two-section */
 .statitcs-two-section {
