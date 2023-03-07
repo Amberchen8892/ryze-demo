@@ -5,7 +5,7 @@ import formImage from '../../images/Download-app-visual-desktop.png';
 import resourcesHero from '../../images/resources.svg';
 import relax from '../../images/relax.svg'
 import question from '../../images/question.svg'
-import support from '../../images/support.svg'
+import support from '../../images/new-support.svg'
 function Resources() {
   return (
     <>
