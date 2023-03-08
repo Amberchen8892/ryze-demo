@@ -50,10 +50,10 @@ function Resources() {
               // }}
             >
               <div className="resources-hero-img">
-              {/* <img
+              <img
                   src={resourcesHero}
                   alt="resources herosection"
-                /> */}
+                />
               </div>
             </div>
           </div>
@@ -197,12 +197,16 @@ function Resources() {
                 </div>
               </div>
               <div className="col-md-12 col-lg-6 resources-main-img-container">
-                <div className="resources-main-img-one"></div>
+                <div className="resources-main-img-one">
+                <img src={relax} alt="relax" />
+                </div>
               </div>
             </div>
             <div className="row resources-main-row">
               <div className="col-md-12 col-lg-6 resources-main-img-container">
-                <div className="resources-main-img-two"></div>
+                <div className="resources-main-img-two">
+                <img src={support} alt="support" />
+                </div>
               </div>
               <div className="col-md-12 col-lg-6 resources-main-img-container">
                 <div>
@@ -235,7 +239,9 @@ function Resources() {
               <div
                 className="col-md-12 col-lg-6 resources-main-img-container"
               >
-                <div className="resources-main-img-three"></div>
+                <div className="resources-main-img-three">
+                <img src={question} alt="question" />
+                </div>
               </div>
             </div>
           </div>
