@@ -1,0 +1,8 @@
+.backhome-button {
+  width: 250px;
+  height: 60px;
+}
+.notfound {
+  /* height: calc(100vh - 80px) !important; */
+  margin-top: 80px;
+}

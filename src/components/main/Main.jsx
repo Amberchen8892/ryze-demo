@@ -50,7 +50,7 @@ function Main() {
               <div className="col-md-12 col-lg-6 spline-container">
                 <Spline
                   className="spline-3"
-                  scene="https://prod.spline.design/WOE5QmIwjnWLpHLC/scene.splinecode"
+                  scene="https://prod.spline.design/qfgg6w38PjbdBeIx/scene.splinecode"
                 />
               </div>
               <div className="col-md-12 col-lg-6 hero-text">

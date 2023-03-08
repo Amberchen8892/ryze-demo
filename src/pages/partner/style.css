@@ -129,6 +129,9 @@
   margin-top: 20px !important;
   font-weight: bold;
 }
+.demo-card-title span {
+  opacity: 0;
+}
 .demo-card-text {
   font-size: 0.8rem !important;
   margin-top: 20px !important;

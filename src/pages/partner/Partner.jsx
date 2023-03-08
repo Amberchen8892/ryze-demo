@@ -424,7 +424,8 @@ function Partner() {
                         </span>
                       </div>
                       <h5 className="card-title demo-card-title">
-                        Drive Revenue
+                        Drive Revenue <br />
+                        <span>Together</span>
                       </h5>
 
                       <p className="card-text demo-card-text">
