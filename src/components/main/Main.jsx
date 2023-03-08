@@ -1,9 +1,9 @@
-import React, { Suspense } from 'react';
-import '../../App.css';
-import formImage from '../../images/Download-app-visual-desktop.png';
+import React, { Suspense } from "react";
+import "../../App.css";
+import formImage from "../../images/Download-app-visual-desktop.png";
 
-import ryzeLogo from '../../images/logo-ryze.png';
-const Spline = React.lazy(() => import('@splinetool/react-spline'));
+import ryzeLogo from "../../images/logo-ryze.png";
+const Spline = React.lazy(() => import("@splinetool/react-spline"));
 function Main() {
   return (
     <>
@@ -14,19 +14,16 @@ function Main() {
               <div className="col-md-12 col-lg-6 hero-text">
                 <div>
                   <h1 className="hero-text-h1">
-                    Millitary Grade Digital Protection{' '}
-                    <span className="hero-text-span">
-                      In One Place
-                    </span>
+                    Millitary Grade Digital Protection{" "}
+                    <span className="hero-text-span">In One Place</span>
                   </h1>
                   <p className="hero-text-p">
-                    {' '}
-                    Get world-class identity theft protection with
-                    24/7 cybersecurity support, $1M insurance, white
-                    glove restoration, and retroactive checkups. Also
-                    includes digital identity and financial
-                    protection, ATO prevention, and dark web
-                    monitoring.
+                    {" "}
+                    Get world-class identity theft protection with 24/7
+                    cybersecurity support, $1M insurance, white glove
+                    restoration, and retroactive checkups. Also includes digital
+                    identity and financial protection, ATO prevention, and dark
+                    web monitoring.
                   </p>
                   <div className="hero-button center">
                     <a
@@ -59,19 +56,16 @@ function Main() {
               <div className="col-md-12 col-lg-6 hero-text">
                 <div>
                   <h1 className="hero-text-h1">
-                    Millitary Grade Digital Protection{' '}
-                    <span className="hero-text-span">
-                      In One Place
-                    </span>
+                    Millitary Grade Digital Protection{" "}
+                    <span className="hero-text-span">In One Place</span>
                   </h1>
                   <p className="hero-text-p">
-                    {' '}
-                    Get world-class identity theft protection with
-                    24/7 cybersecurity support, $1M insurance, white
-                    glove restoration, and retroactive checkups. Also
-                    includes digital identity and financial
-                    protection, ATO prevention, and dark web
-                    monitoring.
+                    {" "}
+                    Get world-class identity theft protection with 24/7
+                    cybersecurity support, $1M insurance, white glove
+                    restoration, and retroactive checkups. Also includes digital
+                    identity and financial protection, ATO prevention, and dark
+                    web monitoring.
                   </p>
                   <a
                     role="button"
@@ -85,36 +79,33 @@ function Main() {
             </div>
 
             <div className="statitcs-one-section">
-              <h1 style={{ marginTop: '20px' }}>
-                Our Mission Is Protecting You From Cybercrime And
-                Fraud
+              <h1 style={{ marginTop: "20px" }}>
+                Our Mission Is Protecting You From Cybercrime And Fraud
               </h1>
               <div className="row">
                 <div className="col-sm-12 col-md-6 card-dark">
-                  {' '}
-                  <div className="card" style={{ padding: '10px' }}>
+                  {" "}
+                  <div className="card" style={{ padding: "10px" }}>
                     <div>
                       <h3 className="statitic-text">
                         Over 22 <br /> Million
                       </h3>
                       <p className="statitic-p">
-                        Account takeovers happen each year on
-                        Instagram alone
+                        Account takeovers happen each year on Instagram alone
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 card-dark">
-                  {' '}
-                  <div className="card" style={{ padding: '10px' }}>
+                  {" "}
+                  <div className="card" style={{ padding: "10px" }}>
                     <div>
                       <h3 className="statitic-text">
                         Every 22 <br /> Seconds
                       </h3>
                       <p className="statitic-p">
-                        There is an identity theft case while reports
-                        & attempts of fraud continue to increase each
-                        year
+                        There is an identity theft case while reports & attempts
+                        of fraud continue to increase each year
                       </p>
                     </div>
                   </div>
@@ -122,29 +113,29 @@ function Main() {
               </div>
               <div className="row">
                 <div className="col-sm-12 col-md-6 card-dark">
-                  {' '}
-                  <div className="card" style={{ padding: '10px' }}>
+                  {" "}
+                  <div className="card" style={{ padding: "10px" }}>
                     <div>
                       <h3 className="statitic-text">
                         4.7 <br /> Million
                       </h3>
                       <p className="statitic-p">
-                        Identiy theft and credit card fraud reports to
-                        the FTC in 2020, +45% vs 2019
+                        Identiy theft and credit card fraud reports to the FTC
+                        in 2020, +45% vs 2019
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 card-dark">
-                  {' '}
-                  <div className="card" style={{ padding: '10px' }}>
+                  {" "}
+                  <div className="card" style={{ padding: "10px" }}>
                     <div>
                       <h3 className="statitic-text">
                         $5.8 <br /> billion
                       </h3>
                       <p className="statitic-p">
-                        Lost by consumers to fraud in 2021, an
-                        increase of 70% from 2020
+                        Lost by consumers to fraud in 2021, an increase of 70%
+                        from 2020
                       </p>
                     </div>
                   </div>
@@ -152,58 +143,50 @@ function Main() {
               </div>
             </div>
           </div>
-          <div
-            className="feature-section desktop-feature"
-            id="features"
-          >
+          <div className="feature-section desktop-feature" id="features">
             <div className="row">
               <div className="col-sm-12 col-md-8 feature-section-text">
-                Secure Your Identity in the Digital Age with{' '}
+                Secure Your Identity in the Digital Age with{" "}
                 <span> Our Protection Services</span>
               </div>
               <div className="col-sm-12 col-md-4"></div>
             </div>
-            <div className="row" style={{ marginBottom: '50px' }}>
+            <div className="row" style={{ marginBottom: "50px" }}>
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <ul className="feature-list">
                   <li>
-                    Account-takeover (ATO) prevention for personal
-                    email and social media
+                    Account-takeover (ATO) prevention for personal email and
+                    social media
                   </li>
-                  <li>
-                    Deep & dark web threat detection for digital
-                    assets{' '}
-                  </li>
-                  <li>
-                    Privacy and protection from unauthorized access
-                  </li>
+                  <li>Deep & dark web threat detection for digital assets </li>
+                  <li>Privacy and protection from unauthorized access</li>
                 </ul>
               </div>
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div className="feature-img-card"></div>
               </div>
             </div>
-            <div className="row" style={{ marginBottom: '50px' }}>
+            <div className="row" style={{ marginBottom: "50px" }}>
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div className="feature-img-card-two"></div>
@@ -211,30 +194,24 @@ function Main() {
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div>
                   <ul className="feature-list">
                     <li>
-                      Anti fraud/credit monitoring from all 3 Credit
-                      Bureaus
+                      Anti fraud/credit monitoring from all 3 Credit Bureaus
                     </li>
-                    <li>
-                      Retroactive checkup to detect past identity
-                      theft
-                    </li>
-                    <li>
-                      $1M identity theft insurance & 24/7 support
-                    </li>
+                    <li>Retroactive checkup to detect past identity theft</li>
+                    <li>$1M identity theft insurance & 24/7 support</li>
                   </ul>
                   <div
                     style={{
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
                     }}
                   >
                     <a
@@ -252,27 +229,23 @@ function Main() {
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <ul className="feature-list">
-                  <li>
-                    Anti-malware defense & mobile threat detection
-                  </li>
-                  <li>
-                    Privacy-led security setting and configurations
-                  </li>
+                  <li>Anti-malware defense & mobile threat detection</li>
+                  <li>Privacy-led security setting and configurations</li>
                   <li>Location masking and safe-browsing (VPN)</li>
                 </ul>
               </div>
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div className="feature-img-card-three"></div>
@@ -280,20 +253,19 @@ function Main() {
             </div>
           </div>
           <div className="feature-section mobile-feature">
-            <div className="row" style={{ marginBottom: '50px' }}>
+            <div className="row" style={{ marginBottom: "50px" }}>
               <div className="col-sm-12 col-md-6 feature-section-text">
-                Millitary Grade Digital Protection{' '}
-                <span> In One Place</span>
+                Millitary Grade Digital Protection <span> In One Place</span>
               </div>
               <div className="col-sm-12 col-md-6"></div>
             </div>
-            <div className="row" style={{ marginBottom: '50px' }}>
+            <div className="row" style={{ marginBottom: "50px" }}>
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div className="feature-img-card"></div>
@@ -301,36 +273,30 @@ function Main() {
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginTop: '50px',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginTop: "50px",
                 }}
               >
                 <ul className="feature-list">
                   <li>
-                    {' '}
-                    Account-takeover (ATO) prevention for personal
-                    email and social
+                    {" "}
+                    Account-takeover (ATO) prevention for personal email and
+                    social
                   </li>
-                  <li>
-                    {' '}
-                    Deep & dark web threat detection for digital
-                    assets{' '}
-                  </li>
-                  <li>
-                    Privacy and protection from unauthorized access
-                  </li>
+                  <li> Deep & dark web threat detection for digital assets </li>
+                  <li>Privacy and protection from unauthorized access</li>
                 </ul>
               </div>
             </div>
-            <div className="row" style={{ marginBottom: '50px' }}>
+            <div className="row" style={{ marginBottom: "50px" }}>
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div className="feature-img-card-two"></div>
@@ -338,32 +304,26 @@ function Main() {
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginTop: '50px',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginTop: "50px",
                 }}
               >
                 <div>
                   <ul className="feature-list">
                     <li>
-                      {' '}
-                      Anti fraud/ credit monitoring from all 3 Credit
-                      Bureaus
+                      {" "}
+                      Anti fraud/ credit monitoring from all 3 Credit Bureaus
                     </li>
-                    <li>
-                      Retroactive checkup to detect past identity
-                      theft
-                    </li>
-                    <li>
-                      $1M identity theft insurance & 24/7 support
-                    </li>
+                    <li>Retroactive checkup to detect past identity theft</li>
+                    <li>$1M identity theft insurance & 24/7 support</li>
                   </ul>
                   <div
                     style={{
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
                     }}
                   >
                     <button type="button" class="btn signup-button">
@@ -377,9 +337,9 @@ function Main() {
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
                 }}
               >
                 <div className="feature-img-card-three"></div>
@@ -387,21 +347,15 @@ function Main() {
               <div
                 className="col-sm-12 col-md-6"
                 style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  marginTop: '50px',
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  marginTop: "50px",
                 }}
               >
                 <ul className="feature-list">
-                  <li>
-                    {' '}
-                    Anti-malware defense & mobile threat detection
-                  </li>
-                  <li>
-                    {' '}
-                    Privacy-led security setting and configurations
-                  </li>
+                  <li> Anti-malware defense & mobile threat detection</li>
+                  <li> Privacy-led security setting and configurations</li>
                   <li>Location masking and safe-browsing (VPN)</li>
                 </ul>
               </div>
@@ -413,7 +367,7 @@ function Main() {
               <div className="statitcs-two-container">
                 <div className="row">
                   <div className="col-md-12 col-lg-4 center">
-                    <div className="card" style={{ width: '18rem' }}>
+                    <div className="card" style={{ width: "18rem" }}>
                       <div className="card-body">
                         <div className="icon-container">
                           <span>
@@ -429,7 +383,7 @@ function Main() {
                     </div>
                   </div>
                   <div className="col-md-12 col-lg-4 center">
-                    <div className="card" style={{ width: '18rem' }}>
+                    <div className="card" style={{ width: "18rem" }}>
                       <div className="card-body">
                         <div className="icon-container">
                           <img
@@ -443,8 +397,8 @@ function Main() {
                           10K
                           <span
                             style={{
-                              fontSize: '2.2rem',
-                              color: '#12AE6D',
+                              fontSize: "2.2rem",
+                              color: "#12AE6D",
                             }}
                           >
                             +
@@ -458,7 +412,7 @@ function Main() {
                     </div>
                   </div>
                   <div className="col-md-12 col-lg-4 center">
-                    <div className="card" style={{ width: '18rem' }}>
+                    <div className="card" style={{ width: "18rem" }}>
                       <div className="card-body">
                         <div className="icon-container">
                           <span>
@@ -468,8 +422,7 @@ function Main() {
                         <h5 className="card-title">$5.8B</h5>
 
                         <p className="card-text">
-                          Lost by Americans due to indentity theft in
-                          2021
+                          Lost by Americans due to indentity theft in 2021
                         </p>
                       </div>
                     </div>
@@ -558,32 +511,31 @@ function Main() {
                     <h1>Your Security Package</h1>
 
                     <p>
-                      Sign up with your email. After confirming
-                      registration in your inbox, you’ll have full
-                      access to our modern identity theft protection
-                      app, at no charge during the initial 7-day trial
-                      period.
+                      Sign up with your email. After confirming registration in
+                      your inbox, you’ll have full access to our modern identity
+                      theft protection app, at no charge during the initial
+                      7-day trial period.
                     </p>
                     <div
                       style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        marginBottom: '20px',
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        marginBottom: "20px",
                       }}
                     >
                       <a
-                      role="button"
-                      className="signup-button"
-                      href="https://join.cyrus.app/signup?pcode=MYRYZE"
-                    >
-                      SIGN UP
-                    </a>
+                        role="button"
+                        className="signup-button"
+                        href="https://join.cyrus.app/signup?pcode=MYRYZE"
+                      >
+                        SIGN UP
+                      </a>
                     </div>
                     <p>
-                      {' '}
-                      Enjoy the app – You now have full access to our
-                      services including
+                      {" "}
+                      Enjoy the app – You now have full access to our services
+                      including
                       <ul className="package-list">
                         <li>$1M fraud insurance protection</li>
                         <li>Email account security </li>
@@ -602,9 +554,9 @@ function Main() {
         </div>
         <div className="contact-section" id="contact">
           <div className=" container">
-            <div className="row" style={{ width: '100%' }}>
+            <div className="row" style={{ width: "100%" }}>
               <div className="col-sm-12 col-md-6 form-container">
-                <div style={{ width: '100%' }}>
+                <div style={{ width: "100%" }}>
                   <h1>CONTACT US</h1>
                   <div>
                     <form
@@ -655,10 +607,7 @@ function Main() {
                         ></textarea>
                       </div>
 
-                      <button
-                        type="submit"
-                        className="btn signup-button"
-                      >
+                      <button type="submit" className="btn signup-button">
                         Submit
                       </button>
                     </form>

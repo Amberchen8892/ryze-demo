@@ -1,11 +1,11 @@
-import React from 'react';
-import '../../App.css';
-import ryzeFooter from '../../images/rsz_new-logo-ryze.png';
-import cyrusLogo from '../../images/cyrus-logo.png';
+import React from "react";
+import "../../App.css";
+import ryzeFooter from "../../images/rsz_new-logo-ryze.png";
+import cyrusLogo from "../../images/cyrus-logo.png";
 function Footer() {
   return (
     <>
-    <div className="container footer">
+      <div className="container footer">
         <div>
           <div className=" footer-logo-container">
             <div className="ryze-logo-container center">
@@ -18,13 +18,13 @@ function Footer() {
           </div>
           <div>
             <p className="all-rights-reserved">
-              © 2023 Ryze. All rights reserved.{' '}
+              © 2023 Ryze. All rights reserved.{" "}
             </p>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

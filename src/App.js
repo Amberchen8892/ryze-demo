@@ -1,15 +1,11 @@
-import React from 'react';
-import './App.css';
-import Home from './pages/Home';
-import Partner from './pages/partner/Partner';
-import Resources from './pages/resources/Resources';
-import Navigation from './components/navbar/Navigation';
-import Footer from './components/footer/Footer';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import Home from "./pages/Home";
+import Partner from "./pages/partner/Partner";
+import Resources from "./pages/resources/Resources";
+import Navigation from "./components/navbar/Navigation";
+import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>

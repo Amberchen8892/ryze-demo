@@ -3,7 +3,7 @@
 }
 .partner-hero-section {
   background-size: 100%;
-  background-image: url('../../images/partner.svg');
+  background-image: url("../../images/partner.svg");
   height: 100vh;
   background-repeat: no-repeat;
 
@@ -139,7 +139,7 @@
 /* responsive */
 @media (max-width: 991.98px) {
   .partner-hero-section {
-    background-image: url('../../images/partner-small-view.svg');
+    background-image: url("../../images/partner-small-view.svg");
   }
   .partner-hero-section-text h1 {
     font-size: 2rem;
