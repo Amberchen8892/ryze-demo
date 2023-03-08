@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import ryzeFooter from "../../images/rsz_new-logo-ryze.png";
+import ryzeFooter from "../../images/logo.svg";
 import cyrusLogo from "../../images/cyrus-logo.png";
 function Footer() {
   return (
