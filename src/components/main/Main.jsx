@@ -614,7 +614,7 @@ function Main() {
                   <h1>CONTACT US</h1>
                   <div>
                     <form
-                      action="https://formsubmit.co/be5d879244022199d26e5c5c0428a690"
+                      action="https://formsubmit.co/phuong@wype.io"
                       method="POST"
                     >
                       <div className="mb-3">
