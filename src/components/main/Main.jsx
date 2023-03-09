@@ -610,25 +610,61 @@ function Main() {
               style={{ width: '100%', height: '100%' }}
             >
               <div className="col-sm-12 col-md-6 form-container">
-                <div style={{ width: '100%', height: '100%' }}>
+                <div style={{ width: '100%' }}>
                   <h1>CONTACT US</h1>
-                  <div
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                    }}
-                  >
-                    <iframe
-                      title="form"
-                      src="https://docs.google.com/forms/d/e/1FAIpQLSeumaaiuSIYb6cfQdkv97eiHhS0Ihdg871TEiMBonnnY4unhA/viewform?embedded=true"
-                      width="640"
-                      height="667"
-                      frameborder="0"
-                      marginheight="0"
-                      marginwidth="0"
+                  <div>
+                    <form
+                      action="https://formsubmit.co/be5d879244022199d26e5c5c0428a690"
+                      method="POST"
                     >
-                      Loading…
-                    </iframe>
+                      <div className="mb-3">
+                        <label
+                          htmlFor="exampleInputEmail1"
+                          className="form-label"
+                        >
+                          Full Name
+                        </label>
+                        <input
+                          name="name"
+                          type="text"
+                          className="form-control"
+                        />
+                      </div>
+                      <div className="mb-3">
+                        <label
+                          htmlFor="exampleInputEmail1"
+                          className="form-label"
+                        >
+                          Email address
+                        </label>
+                        <input
+                          name="email"
+                          type="email"
+                          className="form-control"
+                        />
+                      </div>
+                      <div className="mb-3">
+                        <label
+                          for="exampleFormControlTextarea1"
+                          className="form-label"
+                        >
+                          Message
+                        </label>
+                        <textarea
+                          name="message"
+                          className="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                        ></textarea>
+                      </div>
+
+                      <button
+                        type="submit"
+                        className="btn signup-button"
+                      >
+                        Submit
+                      </button>
+                    </form>
                   </div>
                 </div>
               </div>
